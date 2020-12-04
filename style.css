@@ -51,19 +51,7 @@ body{
 
 
 
-
-
-.mouse{
-    position: relative;
-    width: calc(28px * 2);
-    height: calc(44px * 2);
-    margin: 0 auto 20px;
-    background: none;
-    border: 2px solid white;
-    border-radius: calc(16px * 2) ;
-    z-index: 40;
-}
-        
+     
 
 
 
@@ -200,7 +188,7 @@ body{
     right: 100px;
   }
   
-  @media only screen and (max-width: 768px) {
+  @media (max-width:568px) {
     body {
       font-size: 14px;
     }
@@ -297,69 +285,6 @@ header:after{
     bottom: 0px;
     right: 0;
 }
-
-/* nav{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 1rem 0;
-    z-index: 30;
-    background: linear-gradient(to bottom, rgba( 0, 0, 0, 0.05), transparent)
-}
-
-nav .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
-
-/* .logo{
-    color: #fff;
-    font-size: 1.1rem;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 2px;
-}
-
-.logo span{
-    font-weight: 300;
-} */
-
-/* .hamburger-menu{
-    width: 1.55rem;
-    height: 1.5rem;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.bar{
-    position: relative;
-    width: 1.2rem; 
-    height: 3px;
-    background-color: #fff;
-    border-radius: 2px;
-}
-
-.bar:before, .bar:after{
-    content: '';
-    position: absolute;
-    width: 1.55rem;
-    height: 3px;
-    right: 0;
-    background-color: #fff;
-    border-radius: 2px;
-}
-
-.bar:before{
-    transform: translateY(-8px);
-}
-
-.bar:after{
-    transform: translateY(8px);
-} */
 
 .floating-btn{
     z-index: 40;
@@ -888,10 +813,69 @@ section .container > *{
         padding: 3rem 4rem 3rem 4rem;
     }
 
-    #hivecard{
-        min-width: 66%;
+    .copywrite{
+        order: 0;
+        padding: 6rem;
     }
 
+    .firstoflogo{
+        order: 0;
+    }
+
+    .secondoflogo{
+        order: 0;
+    }
+
+    .vr-gallery{
+        margin-bottom: 2rem;
+    }
+
+    #about{
+        margin-bottom: 12rem;
+    }
+    .abouticons{
+        padding: 1rem;
+    }
+    .aboutdescription {
+        padding: 0rem 0 1rem 14rem;
+    }
+    .visualhive_symb{
+        left:24rem;
+    width: 50%; 
+    justify-content: center;
+    z-index: 27;}
+
+    section .container{
+     padding: 2rem;
+    }
+    #hivecard{
+        display: none;
+    }
+
+    #expandbtn{
+        display: none;
+    }
+    .big-title{
+        z-index: 30;
+        line-height: 5rem;
+        width: 200%;
+        text-align: center;
+        font-weight: 600;
+        color: #fff;
+        font-family: Roboto;
+        letter-spacing: 2px;
+        font-size: 5rem;
+        position: relative;
+        top: 15rem;
+    }
+    .vr-gallery{
+        margin-bottom: 2rem;
+    }
+
+    
+}
+
+@media(ma-width:1366){
     
 }
 
@@ -912,27 +896,18 @@ section .container > *{
     }
 
     .visualhive_symb{
-        left: 5rem;
+        left:17rem;
     width: 50%; 
     justify-content: center;
     z-index: 27;
     }
 
     .copywrite{
-        order: 2;
+        order:0;
+        padding: 6rem;
     }
 
     .firstoflogo{
-        order: 1;
-    }
-    .logomockup{
-        order: ;
-    }
-    .logolink{
-        order:;
-    }
-    
-    .secondoflogo{
         order: 0;
     }
 
@@ -952,16 +927,20 @@ section .container > *{
         position: relative;
         top: 5rem;
     }
+    .vr-gallery{
+        margin-bottom: 2rem;
+    }
 }
 
 
 
-@media(max-width: 600px){
+@media(max-width: 568px){
     data-aos{
       visibility: hidden;
     }
  .cursor{
      display: none;
+     
  }
 
     .big-title{
@@ -1004,13 +983,7 @@ section .container > *{
     .firstoflogo{
         order: 1;
     }
-    .logomockup{
-        orer: ;
-    }
-    .logolink{
-        orer:;
-    }
-    
+
     .secondoflogo{
         order: 0;
     }
