@@ -670,7 +670,7 @@ section .container > *{
  }
 
  .the{
-    font-size: 4rem;
+    font-size: 4vw;
     margin-bottom: -0.5rem;
     color: black;
     font-weight: 1000;
@@ -678,7 +678,7 @@ section .container > *{
  }
 
  .visualhive{
-    font-size: 4rem;
+    font-size: 4vw;
     margin-left: 1rem;
     color: black;
     font-family: roboto;
@@ -781,7 +781,7 @@ section .container > *{
  
 
         .the{
-            font-size:6rem;
+            font-size:6vw;
             margin-bottom: -0.5rem;
             color: black;
             font-weight: 1000;
@@ -789,7 +789,7 @@ section .container > *{
          }
         
          .visualhive{
-            font-size:6rem;
+            font-size:6vw;
             margin-left: 1rem;
             color: black;
             font-family: roboto;
@@ -813,13 +813,16 @@ section .container > *{
         padding: 3rem 4rem 3rem 4rem;
     }
 
+    #hivecard{
+        min-width: 66%;
+    }
     .copywrite{
         order: 0;
         padding: 6rem;
     }
 
     .firstoflogo{
-        order: 0;
+        order: 1;
     }
 
     .secondoflogo{
@@ -840,42 +843,13 @@ section .container > *{
         padding: 0rem 0 1rem 14rem;
     }
     .visualhive_symb{
-        left:24rem;
+        left:18rem;
     width: 50%; 
     justify-content: center;
     z-index: 27;}
-
     section .container{
      padding: 2rem;
     }
-    #hivecard{
-        display: none;
-    }
-
-    #expandbtn{
-        display: none;
-    }
-    .big-title{
-        z-index: 30;
-        line-height: 5rem;
-        width: 200%;
-        text-align: center;
-        font-weight: 600;
-        color: #fff;
-        font-family: Roboto;
-        letter-spacing: 2px;
-        font-size: 5rem;
-        position: relative;
-        top: 15rem;
-    }
-    .vr-gallery{
-        margin-bottom: 2rem;
-    }
-
-    
-}
-
-@media(ma-width:1366){
     
 }
 
@@ -896,10 +870,11 @@ section .container > *{
     }
 
     .visualhive_symb{
-        left:17rem;
+    left: 5rem;
     width: 50%; 
     justify-content: center;
     z-index: 27;
+    top: 6rem;
     }
 
     .copywrite{
@@ -914,7 +889,7 @@ section .container > *{
     .big-title{
         
         z-index: 30;
-        line-height: 4rem;
+        line-height:4rem;
        
         width: 100%;
         text-align: center;
@@ -925,7 +900,7 @@ section .container > *{
         letter-spacing: 2px;
         font-size: 3rem;
         position: relative;
-        top: 5rem;
+        top:8rem;
     }
     .vr-gallery{
         margin-bottom: 2rem;
@@ -934,7 +909,7 @@ section .container > *{
 
 
 
-@media(max-width: 568px){
+@media(max-width:600px){
     data-aos{
       visibility: hidden;
     }
@@ -948,11 +923,11 @@ section .container > *{
     }
 
     .text{
-        font-size: .8rem;
+        font-size: .8vw;
     }
 
     .title{
-        font-size: 1.2rem;
+        font-size: 1.2vw;
     }
     .container_work{
         padding: 3rem 1rem 3rem 1rem;
@@ -970,7 +945,7 @@ section .container > *{
         padding: 0rem;
     }
     .fa-3x {
-        font-size: 2em !important;
+        font-size: 2vw !important;
     }
     .abouticons {
         padding: 1rem;
