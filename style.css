@@ -28,11 +28,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+h1, h2, h3, h4, h5, h6, p{
+    color:white;
+}
 #my-scrollbar {
     width: 100%;
     height: 100%;
   }
 body{
+    
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
     /* overflow-y: scroll;
@@ -407,7 +413,7 @@ position: absolute;
 
 section{
     width: 100%;
-    background-color: #ffffff;
+    background-color: #ffffff00;
     position: relative;
     scroll-snap-align: centre;
 }
@@ -483,7 +489,12 @@ section .container > *{
     /* grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-content: center; */
-    min-height: 100vh;
+    background-image: url(img/ptrn2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
 }
 
 .imgwork{
@@ -519,6 +530,7 @@ section .container > *{
 
 .card{
     border: none !important;
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .card-body{
@@ -612,6 +624,8 @@ section .container > *{
     font-weight: normal;
     font-size: 5vw;
     text-align:right !important;
+    color: #dd7a77 !important;
+    mix-blend-mode: difference;
   }
  .mynameis{
     font-family: Roboto Condensed;
@@ -619,15 +633,18 @@ section .container > *{
     font-weight: normal;
     font-size: 5vw;
     text-align:right !important;
+    color: #dd7a77 !important;
+    mix-blend-mode: difference;
  }
 
  .mithilesh{
-
+    mix-blend-mode: difference;
     font-family: Roboto Condensed;
     font-style: normal;
     font-weight: 1000;
     font-size: 6vw;
     text-align:right !important;
+    color: #dd7a77 !important;
  }
 
 
