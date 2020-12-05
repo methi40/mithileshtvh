@@ -568,6 +568,7 @@ section .container > *{
     padding: 0rem 0 1rem 20rem;
 }
 
+
 .abouticons{
       
         padding: 2rem;
@@ -609,14 +610,14 @@ section .container > *{
     font-family: Roboto Condensed;
     font-style: normal;
     font-weight: normal;
-    font-size: 56px;
+    font-size: 5vw;
     text-align:right !important;
   }
  .mynameis{
     font-family: Roboto Condensed;
     font-style: normal;
     font-weight: normal;
-    font-size: 56px;
+    font-size: 5vw;
     text-align:right !important;
  }
 
@@ -625,7 +626,7 @@ section .container > *{
     font-family: Roboto Condensed;
     font-style: normal;
     font-weight: 1000;
-    font-size: 62px;
+    font-size: 6vw;
     text-align:right !important;
  }
 
@@ -834,7 +835,7 @@ section .container > *{
     }
 
     #about{
-        margin-bottom: 12rem;
+        margin-bottom: 4rem;
     }
     .abouticons{
         padding: 1rem;
@@ -905,6 +906,10 @@ section .container > *{
     .vr-gallery{
         margin-bottom: 2rem;
     }
+
+    .about-para{
+        font-size: 3.5vw !important;
+    }
 }
 
 
@@ -945,12 +950,14 @@ section .container > *{
         padding: 0rem;
     }
     .fa-3x {
-        font-size: 2vw !important;
+        font-size: 2rem !important;
     }
     .abouticons {
         padding: 1rem;
         display: inline-block;
     }
+
+    
     .copywrite{
         order: 2;
     }
