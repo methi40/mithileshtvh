@@ -25,11 +25,11 @@
         </button>
     </div>
     
-    <nav >
+    <nav class="smoothscroll" >
         <ul>
-          <li><a data-scroll href="#work">work</a></li>
-          <li><a data-scroll href="#about">about</a></li>
-          <li><a data-scroll href="#contact">contact</a></li>
+          <li><a  href="#work">work</a></li>
+          <li><a  href="#about">about</a></li>
+          <li><a  href="#contact">contact</a></li>
         </ul>
         <div class="icon"></div>
       </nav>
@@ -94,7 +94,7 @@ z-index: 27;" alt="">
                     <div class="row">
                         <div class="logodesigns">
                             <h1
-                                style="font-family: Roboto Condensed;font-style: normal;font-weight: bold;font-size: 8vw;color: rgb(52 199 255 / 50%);padding: 1rem 0px 1rem 0px;">
+                                style="font-family: Roboto Condensed;font-style: normal;font-weight: bold;font-size: 8vw;color: #a5a5a540;padding: 1rem 0px 1rem 0px;">
                                 LOGO DESIGNS</h1>
                         </div>
                     </div>
@@ -180,7 +180,7 @@ z-index: 27;" alt="">
                     <section>
                         <div class="row">
                             <div class="uidesigns">
-                                <h1 style="font-family: Roboto Condensed;font-style: normal;font-weight: bold;font-size: 8vw; color: rgb(52 199 255 / 50%);padding: 1rem 0px 1rem 0px;">
+                                <h1 style="font-family: Roboto Condensed;font-style: normal;font-weight: bold;font-size: 8vw; color:#a5a5a540 ;padding: 1rem 0px 1rem 0px;">
                                     UI DESIGNS</h1>
                             </div>
                         </div>
@@ -317,7 +317,7 @@ z-index: 27;" alt="">
                                             <h6
                                                 style="font-weight:lighter; padding: 0rem 1rem 2rem 0rem;text-align:left">
                                                 ABCDEFGHIJKLMNOPQRSTUVWXYZ <BR> abcdefghijklmnopqrstuvwxyz</BR></h6>
-                                        </div> -->
+                                        </div>
 
                                         <!-- <div><a style="" href="">View Complete UIbook</a></div> -->
                                      </div>
@@ -337,7 +337,7 @@ z-index: 27;" alt="">
                     </section>
                   
                  <!-- end of work -->
-                    <section id="about">
+                    <section data-scroll="#" id="about">
                         <div class="row">
                             <div class="col-md-2"><img src="img/visualhive_symb.png" class="imgwork" alt=""></div>
 
@@ -351,13 +351,15 @@ z-index: 27;" alt="">
 
                         <div class="">
                             <h1 style="font-family: Roboto Condensed;font-style: normal;font-weight: bold;
-                            font-size: 8vw;color: rgb(52 199 255 / 50%);padding: 0.5rem 0px 0.5rem 0px;">Folio</h1>
+                            font-size: 8vw;color:#a5a5a540;padding: 0.5rem 0px 0.5rem 0px;">Folio</h1>
                         </div>
 
                         <div class="row vr-gallery">
-                            <div class="col-md-12 mb sm-12 ">
-                                <div class="card">
-                                    <img class="card-img" src="https://i.ibb.co/7ppJRvC/methi.jpg" alt="">
+                            <div class="col-md-12 mb sm-12  ">
+                                <div class="card " >
+                                    <img  class="card-img methipic" src="https://i.ibb.co/7ppJRvC/methi.jpg" alt="">
+                                    
+                                    <!-- <img style="transform: translate3d(0px, 0px, 0px);" class="card-img" src="assets/images/methi-pic.jpg" alt=""> -->
                                 </div>
                             </div>
                             <div class="col-md- mb abouttext " style="">
@@ -438,7 +440,7 @@ z-index: 27;" alt="">
                          background: linear-gradient(90deg, rgba(84,146,186,1) 35%, rgba(227,120,115,1) 100%);">
                         </div>
                         <div class="">
-                            <h1 style="font-family: Roboto Condensed;font-style: normal;font-weight: bold;font-size: 8vw;color: rgb(52 199 255 / 50%);;padding: 1rem 0px 1rem 0px;">
+                            <h1 style="font-family: Roboto Condensed;font-style: normal;font-weight: bold;font-size: 8vw;color: #a5a5a540;;padding: 1rem 0px 1rem 0px;">
                             Say Hello!</h1>
                         </div>
 
@@ -498,8 +500,16 @@ z-index: 27;" alt="">
                     maxGlare:0.5
                 })
             </script>
+       
 
        
+       <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+       <script src="">
+        const scroll = new SmoothScroll('.smoothscroll a[href*="#"]', {
+    speed: 800
+  });
+       </script>
 </body>
+
 
 </html>
